@@ -13,11 +13,6 @@ const PropertyByIdPage = () => {
   const name = searchParams.get('name');
   const pathname = usePathname();
 
-
-  console.log('id', id);
-  console.log('searchParams->name', name);
-  console.log('pathname', pathname);
-
   return <div>
     <button className='block bg-blue-100 p-2' onClick={() => router.replace('/')}>
       Back to Home

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import '@/assets/styles/globals.css';
+
 
 const HomePage = () => {
   return (

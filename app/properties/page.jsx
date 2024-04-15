@@ -1,6 +1,10 @@
-const PropertiesPage = (props) => {
-  return <div>PropertiesPage</div>;
+import Properties from '@/components/Properties';
+
+const PropertiesPage = async () => {
+  return (
+    <>
+      <Properties />
+    </>
+  );
 };
-
-
 export default PropertiesPage;
